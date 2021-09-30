@@ -1,0 +1,25 @@
+<p>databinding works!</p>
+<!--<h1 *ngIf ="isDisabled;  then trueblock else elseblock" > </h1>
+<ng-template #trueblock>
+<h2> welcome hema</h2>
+</ng-template>
+<ng-template #elseblock>
+<h2>welcome to hemasaraswathi</h2>
+</ng-template>
+
+<input #msg type="text">
+<button (click) ="onClick(msg)" type="button"> click </button>
+<p *ngFor  = "let name of names"> {{name}}</p>
+<p *ngFor="let name of names; first as e ">{{e}}</p>-->
+<!--<div [ngSwitch]="isDisabled">
+    <h2 *ngSwitchCase="'one'"> welcome angular</h2>
+    <h2 *ngSwitchCase="'two'"> welcome react</h2>
+    <h2 *ngSwitchCase="'three'"> welcome vuejs</h2>
+    <h2 *ngSwitchDefault> default choice</h2>
+
+</div
+<h2 *ngFor="let x of persons">
+    <h2 *ngFor="let y of x|keyvalue">{{y.key}}-{{y.value}} </h2>
+</h2>-->
+<div *ngFor="let person of persons"> 
+<h2 *ngIf="person.id==2">  </h2>{{name1()}}</div>
